@@ -20,7 +20,7 @@
 <header><b>tago</b> · GPS Map Camera</header>
 <main>
 <h1>Privacy Policy</h1>
-<p class="muted">App: Tago GPS Map Camera (com.tago.gpsmapcamera) · Developer: Manjeet Kumar, Delhi, India · Effective: 26 October 2026</p>
+<p class="muted">App: Tago GPS Map Camera (com.tago.gpsmapcamera) · Developer: Manjeet Kumar, Delhi, India · Effective: 27 October 2026</p>
 
 <p>Tago GPS Map Camera takes photos and videos and stamps them with the place, time and a QR code so they can be
 used as site evidence. This policy explains what the app uses, where that information goes, and the choices you have.
@@ -32,14 +32,17 @@ servers that store your data.</p>
   <li><b>Camera</b> – to take photos and videos.</li>
   <li><b>Precise location</b> – to stamp the photo with its latitude/longitude, address and GPS time, and to match AFTER
     photos to their BEFORE photo. Location is used only while the camera is open.</li>
-  <li><b>Microphone</b> – to record sound with videos. If you tap the microphone to speak a note, your phone's speech
-    service (for example Google) turns your voice into text.</li>
+  <li><b>Microphone</b> – to record sound with videos. If you tap the microphone to speak a heading, your phone's speech
+    service (for example Google) turns your voice into text. If you switch on "Noise" in Settings, the app listens
+    for about one second while each photo is taken to measure the sound level; only the number (in dB) is kept,
+    and no sound is recorded or saved.</li>
+  <li><b>Light sensor</b> – only if you switch on "Light" in Settings, to print the light level (lux) on the photo.</li>
   <li><b>Photo location (media location)</b> – to read the location saved in your own photos, for example to show them on a map.</li>
   <li><b>Notes, project/site names and team code</b> – typed by you and printed on your photos.</li>
 </ul>
 
 <h2>2. Where your information is stored</h2>
-<p>Photos, videos, PDF reports and the capture records used by "Verify" are saved on your phone (Pictures, Movies
+<p>Photos, videos, PDF and Word reports and the capture records used by "Verify" are saved on your phone (Pictures, Movies
 and Documents folders). Settings are saved inside the app. Nothing is uploaded to us. Uninstalling the app removes
 its settings; your photos stay in your gallery until you delete them.</p>
 
@@ -51,6 +54,10 @@ its settings; your photos stay in your gallery until you delete them.</p>
   <li><b>Map thumbnail</b> – to draw the small map on the stamp, the app downloads map tiles for the area around you
     from OpenStreetMap. This reveals the approximate area and your internet address to the map server. You can turn
     the map thumbnail off in Settings.</li>
+  <li><b>Weather and air quality</b> – only if you switch on any of AQI, temperature, humidity, wind, visibility or
+    UV in Settings: the photo's coordinates (rounded to about 10 m) are sent to the Open-Meteo weather service
+    (open-meteo.com) to get the current values for the spot. Open-Meteo does not receive your photos or any account
+    details.</li>
   <li><b>QR code on the photo</b> – the QR holds the photo's coordinates, Photo ID and GPS time. When anyone scans it,
     their browser opens our verify page (hosted on GitHub Pages), which shows those details and a "See on maps"
     button. Anyone who has the photo can read this information.</li>
@@ -63,6 +70,7 @@ its settings; your photos stay in your gallery until you delete them.</p>
 <ul>
   <li>Allow or deny camera, location and microphone in your phone's Settings at any time.</li>
   <li>Turn the map thumbnail off in Tago Settings.</li>
+  <li>Weather, air quality, noise and light are off unless you switch them on in Tago Settings.</li>
   <li>Delete any photo, video or report from the app or your gallery.</li>
 </ul>
 
